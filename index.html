@@ -66,7 +66,37 @@
             border-radius: 10px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
         }
-        
+        .exec-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+}
+
+.exec-profile {
+  text-align: center;
+}
+
+.exec-profile img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.exec-profile h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.exec-profile p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
     </style>
 </head>
 <body>
@@ -111,7 +141,40 @@
         <a href=""><img src="" alt="Stratego"></a>
        
        </div>
-
+        <br>
+        <br>
+       <div class="exec-grid">
+        <div class="exec-profile">
+          <img src="AhbeyMesfin.jpg" alt="Executive Member 1">
+          <h3>Ahbey Mesfin</h3>
+          <p>Co-President</p>
+        </div>
+        <div class="exec-profile">
+          <img src="JarenBresnick.jpg" alt="Executive Member 2">
+          <h3>Jaren Bresnick</h3>
+          <p>Co-President</p>
+        </div>
+        <div class="exec-profile">
+          <img src="SimonAnderson.jpg" alt="Executive Member 3">
+          <h3>Simon Anderson</h3>
+          <p>Treasurer</p>
+        </div>
+        <div class="exec-profile">
+          <img src="HarshalNallapareddy.jpeg" alt="Executive Member 4">
+          <h3>Harshal Nallapareddy</h3>
+          <p>Secretary</p>
+        </div>
+        <div class="exec-profile">
+          <img src="ShrishaYapalparvi.jpg" alt="Executive Member 5">
+          <h3>Shrisha Yapalparvi</h3>
+          <p>Technology</p>
+        </div>
+        <div class="exec-profile">
+          <img src="DanielHuynh.jpeg" alt="Executive Member 6">
+          <h3>Daniel Huynh</h3>
+          <p>Outreach/Marketing</p>
+        </div>
+      </div>
 
     
 </body>
