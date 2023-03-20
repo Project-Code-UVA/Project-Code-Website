@@ -2,4 +2,4 @@
 
 Project Code Website:
 
-A website to showcase information about Project Code @ University of Virginia.
+A website to showcase information about Project Code @University of Virginia.
