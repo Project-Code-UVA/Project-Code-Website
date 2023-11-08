@@ -1,208 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
     <title>Project Code</title>
-    <style>
-        /* Center align text */
-        body {
-            text-align: center;
-        }
-        
-        /* Style the header */
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            
-        }
-
-        .instagram-media {
-           max-width: 200px !important;
-           
-        }
-
-        /* Style the mission statement */
-        .about-us {
-            max-width: 800px;
-            margin: 0 auto;
-            font-size: 1.2em;
-            line-height: 1.5em;
-            padding: 30px;
-            background-color: #f2f2f2;
-            border-radius: 10px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-        }
-        
-        /* Style the image */
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 0px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Style Current Projects*/
-        .current-projects{
-            max-width: 800px;
-            margin: 0 auto;
-            font-size: 1.2em;
-            line-height: 1.5em;
-            padding: 30px;
-            background-color: #f2f2f2;
-            border-radius: 10px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-        }
-
-         /* Style Past Projects*/
-         .past-projects{
-            max-width: 800px;
-            margin: 0 auto;
-            font-size: 1.2em;
-            line-height: 1.5em;
-            padding: 30px;
-            background-color: #f2f2f2;
-            border-radius: 10px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-        }
-        .exec-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, auto);
-        gap: 20px;
-}
-
-.exec-profile {
-  text-align: center;
-  justify-content: center;
-}
-
-.exec-profile img {
-  width: 150%;
-  max-width: 200px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center top;
-}
-
-.exec-profile h3 {
-  font-size: 24px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-.exec-profile p {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.form-container {
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px;
-  max-width: 500px;
-  text-align: center;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-label {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-input {
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-input:focus {
-  outline: none;
-}
-
-.submit-btn {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.submit-btn:hover {
-  background-color: #3e8e41;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 8px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-}
-
-.button:hover {
-  background-color: #3e8e41;
-}
-
-.current-button {
-  background-color: #3897f0;
-  margin-right: 100px
-}
-
-.past-button {
-  background-color: #c048e5;
-  margin-right: px
-}
-
-.current-button:hover {
-  background-color: #1856c8;
-}
-
-.past-button:hover {
-  background-color: #8610a7;
-}
-    </style>
 </head>
-<body>
+<body id="page-top">
+  <!-- Header -->
+  <header>
+    <section id="header">
+      <div class="header-container">
+      <div class="nav-bar">
+        <div class="title">
+          <a href="https://github.com/Project-Code-UVA">
+              <div class="logo">
+                  <img src="./Assets/WebsiteArt/SAMPLE1.JPG" alt="png">
+              </div>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#about-us" data-after="about-us">About</a></li>
+            <li><a href="#projects-list" data-after="projects-list">Current/Past Projects</a></li>
+            <li><a href="#exec-grid" data-after="exec-grid">Executive Board</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </header>
 
-    <!-- Header -->
-    <header>
-        <h1>Project Code</h1>
-        <img src="Assets/WebsiteArt/SAMPLE1.JPG" alt="Sample image" width = "100">
-    </header>
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <p>Welcome to</p>
+      <div class = "logo">
+        <img src="./Assets/WebsiteArt/projectcodebanner.jpg" alt="png">
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
     
     <!-- About Us -->
+  <div id = "about-us">
     <div class="about-us">
       <h1>About Us</h1>
         <h3>Mission statement:</h3> 
@@ -233,6 +78,7 @@ input:focus {
         
 
       </div>
+    </div>
     <br>
     <br>
 
@@ -300,10 +146,11 @@ input:focus {
   // Set the default display to show only the "Current Projects" section
   showCurrent();
 </script>
+    <div id = "exec-grid">
         <br>
         <br>
         <h1>Executive Board</h1>
-       <div class="exec-grid">
+        <div class="exec-grid">
         <div class="exec-profile">
           <a href="https://www.linkedin.com/in/ahbey-mesfin-173247218/">
             <img src="Assets/ExecBoardPics/AhbeyMesfin.jpg" alt="Executive Member 1">
@@ -355,6 +202,7 @@ input:focus {
         </div>
 
       </div>
+    </div>
 
     
 </body>
